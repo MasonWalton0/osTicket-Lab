@@ -1,0 +1,55 @@
+# osTicket Setup Notes
+
+## Environment
+- Host OS: Windows 11
+- Virtualization: VirtualBox
+- Guest OS: Ubuntu Server 22.04 LTS
+- Web Stack: Apache, PHP, MySQL
+- Ticketing System: osTicket (open source)
+
+## VM Configuration
+- CPU: 2 cores
+- RAM: 4 GB
+- Storage: 30 GB
+- Network: NAT
+
+## Installation Steps
+
+### 1. System Update
+```bash
+sudo apt update && sudo apt upgrade -y
+
+
+### 2. Install Lamp Stack
+- sudo apt install apache2 mysql-server php php-mysql php-gd php-imap php-intl php-mbstring php-xml php-curl unzip -y
+
+
+### 3. MySQL Hardening
+
+- Enabled password validation
+
+- Removed anonymous users
+
+- Disabled remote root login
+
+- Removed test database
+
+
+### 4. osTicket Installation
+
+- Downloaded from official GitHub repository
+
+- Created MySQL database and user
+
+- Set file permissions
+
+- Completed web-based installer
+
+
+### Validation
+
+- Apache reachable via browser
+
+- osTicket admin panel accessible
+
+- Tickets successfully created and resolved

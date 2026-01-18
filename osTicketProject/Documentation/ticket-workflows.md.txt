@@ -1,0 +1,33 @@
+# Ticket Workflow Examples
+
+## Ticket 1: Cannot Access Email
+- Priority: Medium
+- Assigned to: Help Desk Tier 1
+- Actions:
+  - Initial response
+  - Password reset
+  - User verification
+- Status: Resolved
+
+## Ticket 2: Suspicious Login Alert
+- Priority: High
+- Assigned to: Security Team
+- Actions:
+  - Reviewed login logs
+  - Forced password reset
+  - Added internal notes
+- Status: Closed
+
+## Ticket 3: VPN not connecting when working remotely
+- Priority: Low
+- Assigned to: Help Desk Tier 1
+- Actions:
+  - Review VPN version
+  - Tell to update VPN to latest version
+  - Tell to come back if problem persists
+- Status: Closed
+
+
+## Workflow Summary
+Tickets follow:
+Open → Assigned → In Progress → Resolved → Closed

@@ -1,0 +1,27 @@
+## Architecture Diagram Design
+
+User Browser 
+
+   |
+
+Apache Web Server
+
+   |
+
+PHP Application (osTicket)
+
+   |
+
+MySQL Database
+
+
+## Components
+- Apache: Handles HTTP requests
+- PHP: Runs osTicket application logic
+- MySQL: Stores tickets, users, SLAs, and logs
+- Ubuntu Server: Provides secure Linux environment
+
+## Security Considerations
+- MySQL root remote login disabled
+- Strong password policies enforced
+- Role-based access control in osTicket

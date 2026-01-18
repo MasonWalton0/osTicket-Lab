@@ -1,0 +1,13 @@
+# Lessons Learned
+
+- Importance of proper role-based access control
+- How SLAs affect ticket prioritization
+- Real-world ticket escalation processes
+- Linux file permissions and service management
+- Value of documentation in IT environments
+- Important Websites:
+	- http://VM-IP/osticket/scp/
+		- The place to receive  configured departments, agent roles, groups, SLA plans, and user accounts to 		  simulate a real IT support environment
+
+       - http://VM-IP/osticket/
+		- The place where end-user go to open and submit a ticket through ostickets user portal

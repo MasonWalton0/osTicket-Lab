@@ -1,0 +1,23 @@
+# Configuration Details
+
+## Departments
+- IT Support: General help desk issues
+- Networking: VPN and connectivity issues
+- Security: Account compromise and alerts
+
+## Groups
+- Help Desk Tier 1: Initial ticket triage
+- Help Desk Tier 2: Escalated technical issues
+- Security Team: High-priority incidents
+
+## Roles
+- Read Only: View tickets only
+- Ticket Resolver: Assign, respond, close tickets
+- Administrator: Full system access
+
+## SLA Plans
+ Priority | Response Time 
+--------|---------------
+ Low    | 72 hours       
+ Medium | 24 hours       
+ High   | 4 hours        
